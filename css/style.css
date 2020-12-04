@@ -1,0 +1,221 @@
+/* Basic css */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #151719;
+    
+}
+p{
+    color:rgb(156, 169, 179);
+}
+/* Header Section css */
+.active1{
+    color: #eceded!important;
+    background-color: #6163ff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 5px 25px;
+    margin-left: 60px;
+}
+.documentation{
+    font-size: 18px;
+    color: #96A3AD!important;
+    font-weight: 500;
+}
+
+/* startup section */
+.startup h1{
+    color:#fff;
+}
+.startups-text{
+    color: #5658DD;
+}
+.startup p{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+}
+.start-btn{
+    color: #eceded;
+    background-color: #6163ff;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 13px 30px;
+}
+.start-btn:hover{
+    text-decoration: none;
+    color: #eceded;
+    background-color: #787afa;
+}
+.git-btn{
+    color: #eceded;
+    background-color: #2A2D32;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 13px 30px;
+}
+.git-btn:hover{
+    text-decoration: none;
+    color: #eceded;
+    background-color: #36393f;
+}
+.button-gave{
+    display: flex;
+    grid-column-gap: 20px;
+    justify-content: center;
+}
+.video-media{
+    text-align: center;
+    margin:60px auto;
+}
+video{
+    width: 80%;
+}
+/* Buildup section css */
+.buildup h1{
+    color:#fff;
+}
+.buildup .text-center p{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+}
+.buildup h3{
+    color: #eceded;
+}
+.info-item{
+    text-align: center;
+}
+.borderdown{
+    background-color: rgb(41, 44, 46);
+    height: 1px;
+    width: 100%;
+}
+
+/* Workflow Section css */
+.workflow h1{
+    color:#fff;
+}
+.workflow .text-center p{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+}
+.workflow h3{
+    color: #eceded;
+    font-weight: 700;
+    font-size: 35px
+}
+.lighting-text{
+    font-size: 14px;
+    color: #5658dd;
+    font-weight: 500;
+}
+.workflow .p-text{
+    font-size: 20px;
+    padding-right: 50px;
+}
+.workflow .row{
+    margin: 70px 0;
+}
+/* customer section css */
+.customer h1{
+    color:#fff;
+}
+.customer .text-center p{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+}
+.customer h3{
+    color: #eceded;
+    font-weight: 700;
+    font-size: 35px
+}
+.customer .row p{
+    font-size: 20px;
+}
+.customer .row h5{
+    color: #eceded;
+    font-size: 18px;
+}
+.customer .row .appname{
+    color: #1cb68b;
+}
+.customer .row .appname:hover{
+    color: #63C8AC;
+    cursor: pointer;
+}
+.custom-card img{
+    width: 25px;
+}
+.custom-card{
+    padding: 30px 35px;
+    background-color: #25282C;
+}
+.custom-body{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+.card-border{
+    height: 1px;
+    width: 100%;
+    background-color: #3a3e42;
+}
+.previewing{
+    background-color: #5658DD;
+    padding: 50px;
+}
+.email-form{
+    width: 300px;
+    height: 50px!important;
+    border-radius: 2px;
+}
+@media (min-width: 768px){
+    .custom-card{
+        max-width: 32%;
+    }
+}
+/* Footer section css */
+.lower-footer{
+    margin: 20px 0 50px 0;
+}
+.lower-footer .komuna{
+    cursor: pointer;
+    color: #eceded;
+}
+.lower-footer ul li{
+    list-style: none;
+}
+.lower-footer ul li a{
+    color: rgb(156, 169, 179);
+    font-size: 16px;
+    padding: 0px 25px;
+}
+.lower-footer ul li a:last-child{
+    padding-right: 0;
+}
+.lower-footer ul li a:hover{
+    text-decoration: none;
+    color: #eceded;
+}
+.upper-footer{
+    padding-top: 75px;
+}
+.upper-footer .icon{
+    padding: 0 30px;
+    color: #6163ff;
+    font-size: 17px;
+}
+.upper-footer .icon:last-child{
+    padding-right: 0;
+}
+.upper-footer .icon:hover{
+    color: #ACADFF;
+}
+
+
