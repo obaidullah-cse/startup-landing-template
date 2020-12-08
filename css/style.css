@@ -15,7 +15,7 @@ p{
     font-size: 18px;
     font-weight: 700;
     border-radius: 4px;
-    padding: 5px 25px;
+    padding: 5px 25px !important;
     margin-left: 60px;
 }
 .documentation{
@@ -216,6 +216,60 @@ video{
 }
 .upper-footer .icon:hover{
     color: #ACADFF;
+}
+
+/* Responsive */
+@media (max-width:768px){
+    .active1{
+        font-size: 18px;
+        color: #96A3AD!important;
+        font-weight: 500;
+        background-color: none!important;
+        margin-left: 0;
+        background-color: #151719;
+        padding-left: 0!important;
+    }
+    .startup p{
+        width: auto;
+    }
+    .buildup .text-center p{
+        width: auto;
+    }
+    .workflow .text-center p {
+        width: auto;
+    }
+    .customer .text-center p{
+        width: auto;
+    }
+    .previewing{
+        display: block!important;
+    }
+    .previewing h3{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .previewing .email-form{
+        width: 100%;
+    }
+    footer .upper-footer{
+        display: block!important;
+        text-align: center;
+    }
+    .upper-footer img{
+        margin-bottom: 30px;
+        margin-right: 5px;
+    }
+    .upper-footer .icon{
+        padding: 0px 25px!important;
+    }
+    footer .lower-footer{
+        display: block!important;
+        text-align: center;
+    }
+    .lower-footer ul li a{
+        padding: 0px 25px!important;
+    }
+    
 }
 
 
